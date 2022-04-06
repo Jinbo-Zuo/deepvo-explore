@@ -3,6 +3,7 @@
 # 1. 运行程序
 - 首先在主目录下新建文件夹 "/KITTI"
   - 下载KITTI图像数据集保存在" /KITTI/images" 下
+    - 官方下载地址 http://www.cvlibs.net/datasets/kitti/eval_odometry.php
   - 下载KITTI数据集对应的位姿文件，保存在 "/KITTI/pose" 下
     - (注：本项目中使用的位姿文件经过预处理，为6维储存欧拉角+平移 和 9维储存旋转矩阵R)
 
