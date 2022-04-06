@@ -20,10 +20,14 @@
   - 结果保存在 "/result" 下
   - 位姿文件可以基于 evo 等工具进行可视化
 
-# 3. 其他文件说明
+# 3. 其他文件及路径说明
 - data_operate.py : 定义 PyTorch dataset 和 sampler
 - parameters.py : 参数保存
 - model.py : 模型定义
+
+- /error : 用来保存每一步的训练误差
+- /models : 用来保存模型文件
+- /result : 用来保存生成的位姿结果
 
 # 4. 用到的包
 - numpy
